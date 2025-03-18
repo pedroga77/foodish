@@ -139,12 +139,27 @@ body {
 }
 
 .card-button:hover {
-    background-color: #FF0000; /* Darker shade on hover */
+    background-color: #FF0000; 
 }
 
 
-.rugal2{
-    height: 500px;
-    width: 500px;
-    margin-top: 359px;
+.rugal2 {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    height: 500px; 
+    width: 500px; 
+}
+
+
+
+.galeria img{
+    height: 25vh ;
+    align-items: center;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+    
 }

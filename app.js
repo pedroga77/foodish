@@ -1,7 +1,7 @@
 'use strict'
 
 async function pesquisarFotos() {
-    const url = `https://foodish-api.com/images/somefoodish/`
+    const url = `https://foodish-api.com/api/`
     
     const response = await fetch(url)
     const data = await response.json()
@@ -59,7 +59,7 @@ function criarCard(personagem) {
      const button = document.createElement('button');
      button.textContent = 'Saiba Mais'; 
      button.onclick = () => {
-         window.location.href = `https://foodish-api.com/images/somefoodish/${personagem.nome.toLowerCase().replace(/\s+/g, '-')}`; 
+         window.location.href = `https://foodish-api.com/api/`; 
      };
      button.classList.add('card-button'); 
     card.appendChild(imagem);
